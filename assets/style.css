@@ -16,7 +16,7 @@ body {
 }
 
 .header h1{
-    display: inline-flex;
+    display: inline-block;
     font-size: 48px;
 }
 
@@ -51,11 +51,81 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 400px;
     width: auto;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("C:\Users\haley\OneDrive\Desktop\unnamed.jpg");
     background-color: rgb(114, 167, 149);
     background-size: auto;
     background-position: center;
 }
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px ;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.about-me, .my-work, .contact-me {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: peachpuff;
+}
+
+.about-me {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.my-work {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-me {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-me img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.my-work img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.contact-me img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.about-me, .my-work, .contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
