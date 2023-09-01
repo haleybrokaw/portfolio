@@ -40,10 +40,23 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-main {
+
+.wrapper {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+main {
+  
+}
+
+.page-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 12px;
 }
 
 a {
